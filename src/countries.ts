@@ -1,11 +1,13 @@
-export const preferred = [
+import { Country } from "./types";
+
+export const preferred: Country[] = [
 	{ name: 'United States', code: 'US', dial_code: '+1' },
 	{ name: 'Canada', code: 'CA', dial_code: '+1' },
 	{ name: 'United Kingdom', code: 'GB', dial_code: '+44' },
 	{ name: 'India', code: 'IN', dial_code: '+91' }
 ];
 
-export const countries = [
+export const countries: Country[] = [
 	{ name: 'Andorra', code: 'AD', dial_code: '+376' },
 	{ name: 'United Arab Emirates', code: 'AE', dial_code: '+971' },
 	{ name: 'Afghanistan', code: 'AF', dial_code: '+93' },

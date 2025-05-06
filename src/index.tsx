@@ -23,5 +23,4 @@ import { isValidPhoneNumber } from './utils';
 // - helperText (optional) string that is the helper text for the phone number
 // - disabled (optional) boolean that is true if the phone number input is disabled
 
-export default Input;
-export { isValidPhoneNumber };
+export { Input, isValidPhoneNumber };
